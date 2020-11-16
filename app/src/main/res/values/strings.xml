@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Pause</string>
+    <string name="login_username">Enter Username</string>
+    <string name="login_pass">Password</string>
+    <string name="login_next_btn">Next</string>
+    <string name="Signup_name">Full Name</string>
+    <string name="Signup_email_address">Enter email address</string>
+    <string name="Signup_user_name">Give a Username</string>
+    <string name="Signup_pass">Give a password</string>
+    <string name="Signup_btn">Shoot</string>
+    <string name="Signup_text">Schedule Your Routine</string>
+    <string name="Sign_up_text">Fill up these information</string>
+</resources>
