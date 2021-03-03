@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Pause">
-        <activity android:name=".Notes"></activity>
+        <activity android:name=".Notes" />
         <activity android:name=".Login" />
         <activity android:name=".Signup" />
         <activity android:name=".MainActivity">
