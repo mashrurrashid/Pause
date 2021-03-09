@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:layout_marginStart="15dp"
+    android:layout_marginEnd="15dp"
+    app:cardElevation="15dp"
+    app:cardCornerRadius="10dp"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/note_remove_btn"
+            android:background="#ff0000"
+            android:layout_alignParentRight="true"
+            android:text="X"
+            android:layout_marginLeft="12dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/note_title"
+            android:text="Task Title"
+            android:textSize="20dp"
+            android:background="#cc00ffff"
+            android:textAlignment="center"
+            android:layout_below="@id/note_remove_btn"
+            android:textStyle="bold"
+            android:requiresFadingEdge="horizontal"
+            ></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/note_description"
+            android:layout_below="@id/note_title"
+            android:textAlignment="center"
+            android:text="Description"
+            style="@style/CardView.Dark"
+            android:textStyle="normal"
+            android:fadingEdge="horizontal"
+            android:fadingEdgeLength="20dp"
+            android:layout_margin="10dp"
+            android:textColorHint="@color/common_google_signin_btn_text_light"
+            />
+
+    </RelativeLayout>
+
+
+
+</androidx.cardview.widget.CardView>
